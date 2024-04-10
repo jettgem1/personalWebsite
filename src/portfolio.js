@@ -23,7 +23,7 @@ const greeting = {
   username: "Jett Gemmer",
   title: "Hi all, I'm Jett",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Full Stack Software Developer 🚀 with experience building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
   ),
   resumeLink:
     "https://docs.google.com/document/d/1Lg71-dG1m74brQJV-2C1uJGZ-zLn1akZ/edit?usp=sharing&ouid=103446062493864652776&rtpof=true&sd=true", // Set to empty to hide the button
@@ -172,12 +172,16 @@ const techStack = {
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "JavaScript",
-      progressPercentage: "80%"
+      Stack: "JavaScript/HTML/CSS",
+      progressPercentage: "90%"
+    },
+    {
+      Stack: "React",
+      progressPercentage: "70%"
     },
     {
       Stack: "Java",
-      progressPercentage: "50%"
+      progressPercentage: "60%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -192,7 +196,7 @@ const workExperiences = {
       role: "Simulation Engineer",
       company: "Heat Inverse",
       companylogo: require("./assets/images/heatInverse3.png"),
-      date: "June 2018 – Present",
+      date: "June 2022 – August 2023",
       desc: "Developed a comprehensive Python simulation to analyze the net radiative cooling power of polymers with multi-layered metal and adhesive configurations. The platform supports evaluation based on absorption spectra, facilitates rapid research of various polymers, and incorporates real-world factors like temperature variances, convective heat transfer, and atmospheric humidity. The project aids in understanding metamaterial behavior in the 8 to 13 micron atmospheric window, streamlining the selection and testing of polymer combinations and advancing the innovative field of radiative sky cooling.",
       descBullets: [
 
@@ -202,7 +206,7 @@ const workExperiences = {
       role: "Front-End Developer",
       company: "Lujena, inc",
       companylogo: require("./assets/images/HandH.png"),
-      date: "May 2017 – May 2018",
+      date: "June 2020 – August 2021",
       desc: "Transitioned and rebranded an outdated website, utilizing HTML, CSS, and JavaScript.",
       descBullets: [
         "Increased web traffic by changing above-the-fold presentation, improving navigation, creating dynamic media sections, and adding social media plugins.",
@@ -213,7 +217,7 @@ const workExperiences = {
       role: "Technical Resiliance Mentee",
       company: "Microsoft",
       companylogo: require("./assets/images/microsoft.jpg"),
-      date: "Jan 2015 – Sep 2015",
+      date: "March 2021 – May 2021",
       desc: "Worked on developing individual and collaborative strategies to help navigate challenges that can arise across both personal and academic workspaces. Contributed to individual and group training sessions with current Microsoft Employees",
     }
   ]
